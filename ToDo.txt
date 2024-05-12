@@ -1,3 +1,7 @@
 1.
 Input: ""
 Output: "Spaceship lost forever."
+
+Test 2: 
+Input: "......"
+Output: "Spaceship lost forever."
