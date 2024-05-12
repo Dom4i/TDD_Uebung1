@@ -24,6 +24,6 @@ describe('String Calculator', function() {
 	});
 
 	it('should return [9,5] for map', function() {
-		expect(findSpaceship.add(".........X\n..........\n..........\n..........\n..........\n..........")).toEqual([9,5]);
+		expect(calculator.add(".........X\n..........\n..........\n..........\n..........\n..........")).toEqual([9,5]);
 	});
 });
