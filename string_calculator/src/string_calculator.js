@@ -14,8 +14,8 @@ StringCalculator.prototype.add = function(map) {
 	else {
 		for (var i = map.length; i >= 0 ; i--) {
 			if(map[i] === 'X') {
-				foundShip = true; 
-				
+				foundShip = true; //y Koordinate des Schiffs gefunden
+				console.log(x, y);
 			}
 			if(foundShip === false) {
 				if (map[i] === '\n') {
@@ -24,7 +24,8 @@ StringCalculator.prototype.add = function(map) {
 			}
 			else {
 				if (map[i] === '.') {
-					x++;
+					x++; //x Koordinate des Schiffs gefunden
+					console.log(x, y);
 				}
 				else if (map[i] === '\n') {
 					return [x,y];
