@@ -13,3 +13,7 @@ Output: "Spaceship lost forever."
 4:
 Input: "X"
 Output: "[0,0]"
+
+5:
+Input "X.........\n..........\n..........\n..........\n..........\n.........."
+Output: "[0,5]"

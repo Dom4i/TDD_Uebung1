@@ -16,6 +16,9 @@ describe('String Calculator', function() {
 	});
 
 	it('should return "[0,0]" for input: "X"', function() {
-		expect(calculator.add('X')).toEqual("[0,0]");
+		expect(calculator.add('X')).toEqual([0,0]);
+	});
+	it('should return [0,5] for map', function() {
+		expect(calculator.add("X.........\n..........\n..........\n..........\n..........\n..........")).toEqual([0,5]);
 	});
 });
