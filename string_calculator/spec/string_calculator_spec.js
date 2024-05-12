@@ -28,10 +28,14 @@ describe('String Calculator', function() {
 	});
 
 	it('should return [5,5] for map', function() {
-		expect(calculator.add(".....X.....\n..........\n..........\n..........\n..........\n..........")).toEqual([5,5]);
+		expect(calculator.add(".....X....\n..........\n..........\n..........\n..........\n..........")).toEqual([5,5]);
 	});
 
 	it('should return [3,3] for map', function() {
-		expect(calculator.add("..........\n..........\n...X......\n..........\n..........\n...........")).toEqual([3,3]);
+		expect(calculator.add("..........\n..........\n...X......\n..........\n..........\n..........")).toEqual([3,3]);
+	});
+
+	it('should return [7,2] for map', function() {
+		expect(calculator.add("..........\n..........\n..........\n.......X..\n..........\n..........")).toEqual([7,2]);
 	});
 });
