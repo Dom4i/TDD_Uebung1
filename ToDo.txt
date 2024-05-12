@@ -5,3 +5,7 @@ Output: "Spaceship lost forever."
 Test 2: 
 Input: "......"
 Output: "Spaceship lost forever."
+
+Test 3: 
+Input: "..\n...\n...."
+Output: "Spaceship lost forever."
